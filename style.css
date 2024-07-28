@@ -1,0 +1,198 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #F5F5F5;
+    color: #333333;
+}
+
+a {
+    color: #007BFF;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+button {
+    background-color: #007BFF;
+    color: #FFFFFF;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.container{
+    max-width: 1100px;
+    position: relative;
+    margin: 10px auto;
+    padding: 20px 50px;
+}
+
+.header{
+    text-align: center;
+}
+
+.main-title{
+    font-size: 40px;
+    margin-top: 1px;
+}
+
+.main-paragraph{
+    font-style: italic;
+}
+
+.featured-image{
+    text-align: center;
+    margin: 20px;
+}
+
+.featured-image img{
+    border-radius: 4px;
+}
+
+.biography-container{
+    padding: 25px 0;
+    margin: 20px 0;
+    border-top: 2px solid #ddd;
+    border-bottom: 2px solid #ddd;
+}
+
+.quotes-container{
+    background-color: #ddd;
+    padding: 20px;
+    
+}
+
+.quotes-container blockquote {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.quotes-container p{
+    font-style: italic;
+}
+
+.img-bold{
+    padding: auto;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+
+.img-bold h2{
+    border-top: 2px solid #ddd;
+    margin-top: 20px;
+    padding-top: 10px;
+}
+
+.imagem_link{
+    display: inline-block;
+    background-color: #f9f9f9; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    overflow: hidden; /* Garante que as bordas arredondadas sejam aplicadas à imagem */
+    text-align: center;
+    padding: 10px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transição suave para efeitos de hover */
+}
+
+.imagem_link img {
+    width: 200px;
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove o espaço embaixo da imagem */
+    border-radius: 4px; /* Bordas arredondadas para a imagem */
+}
+
+/* Estilização do texto dentro da figura */
+.imagem_link figcaption {
+    font-size: 1.2em;
+}
+
+.imagem_link p {
+    font-size: 1em; /* Tamanho da fonte do parágrafo */
+}
+
+.imagem_link:hover {
+    transform: scale(1.05); /* Aumenta ligeiramente o tamanho */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Aumenta a sombra */
+}
+
+.imagem_link a {
+    text-decoration: none;  
+    color: inherit; /* Herda a cor do elemento pai */
+}
+
+.imagem-link{
+    display: inline-block;
+    background-color: #f9f9f9; /* Cor de fundo clara */
+    border: 1px solid #ddd; /* Borda sutil */
+    border-radius: 8px; /* Bordas arredondadas */
+    overflow: hidden; /* Garante que as bordas arredondadas sejam aplicadas à imagem */
+    text-align: center; /* Centraliza o texto dentro da figura */
+    padding: 10px; /* Espaçamento interno */
+    width: 250px; /* Largura fixa para cada item */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra leve */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transição suave para efeitos de hover */
+}
+
+.imagem-link img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse o tamanho do container */
+    height: auto; /* Mantém a proporção da imagem */
+    display: block; /* Remove o espaço embaixo da imagem */
+    border-radius: 4px; /* Bordas arredondadas para a imagem */
+}
+
+/* Estilização do texto dentro da figura */
+.imagem-link figcaption {
+    font-size: 1.2em; /* Tamanho da fonte do figcaption */
+    margin: 10px 0 5px; /* Espaçamento do figcaption */
+    color: #333; /* Cor do texto */
+}
+
+.imagem-link p {
+    font-size: 1em; /* Tamanho da fonte do parágrafo */
+    color: #777; /* Cor do texto */
+}
+
+.imagem-link:hover {
+    transform: scale(1.05); /* Aumenta ligeiramente o tamanho */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Aumenta a sombra */
+}
+
+.imagem-link a {
+    text-decoration: none;  
+    color: inherit; /* Herda a cor do elemento pai */
+}
+
+.moreinfo-container {
+    padding: 20px; 
+    margin: 20px auto;
+    
+}
+
+.moreinfo-container h2 {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.moreinfo-container p {
+    font-size: 15px;
+}
+
+.moreinfo-container a {
+    color: #1e90ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.moreinfo-container a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
